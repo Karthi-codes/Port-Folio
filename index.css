@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+IT+Moderna:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+html, body {
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+span{
+    color: rgb(89, 178, 244);
+}
+
+
+/* First content starts */
+
+.nav-bar {
+    display: flex;
+    position: fixed; 
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(25, 31, 54);
+    z-index: 1;  
+    padding: 15px 20px;
+    color: white;
+}
+
+.nav-bar h1 {
+    font-size: 35px;
+    margin-left: 140px;
+}
+
+.det {
+    display: flex;
+}
+
+.det a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 23px;
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+
+.info:hover{
+    color: rgb(89, 178, 244);
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    right: -100%;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(38, 40, 64);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease-in-out;
+}
+
+.mobile-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.mobile-menu .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Second Content Starts */
+
+#home{
+    height: 100vh;
+    background-color: rgb(25, 31, 54);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align{
+    font-size: 50px;
+    color: white;
+    padding-top: 125px;
+    padding-left:10px;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 80px;
+    margin-left: -20px; 
+}
+
+.pp{
+    margin-left: 200px;
+    text-align: center;
+}
+
+.describe{
+    color: white;
+    font-size: 25px;
+}
+
+#photo{
+    width: 300px;
+    height: 300px; 
+    margin-left: 10px;
+    border-radius: 100%;
+    border: 10px solid rgb(235, 193, 114);
+}
+
+#icon_1 {
+    font-size: 20px; 
+    color: rgb(89,178,244); 
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(89,178,244); 
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;text-decoration: none;
+    background-color: transparent;
+}
+
+#icon_1:hover {
+    background-color: rgb(89,178,244); 
+    color: white;cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+    border: 2px solid rgb(89, 178, 244);
+    transform: scale(1.25);
+}
+
+.element{
+    display: flex;
+    gap: 25px;
+}
+
+.download-btn {
+    background-color: rgb(89, 178, 244);
+    color: rgb(25, 31, 54);
+    margin-top: 50px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    letter-spacing: 2px;
+    align-items: center;
+    gap: 10px; 
+}
+
+.download-btn:hover {
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+    border: 2px solid rgb(89, 178, 244);
+    transform: scale(1.05); 
+}
+
+/* Third content starts  */
+#am{
+    background-color: rgb(38, 40, 64);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#am h1{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    padding: 125px;
+    font-size: 40px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.about{
+    color: white;
+    font-family:"Ubuntu", sans-serif;
+    padding: 100px;
+    line-height: 50px;
+    justify-content: center;
+    font-size: 27px;
+    margin-top: -100px;
+}
+
+/* Fourth Content starts */
+
+#ed{
+    background-color: rgb(25, 31, 54);
+    height: 100vh;
+    width: 100%;
+}
+
+#ed h1{
+    color: white;
+    text-align: center;
+    font-family:"Ubuntu", sans-serif;
+    padding:125px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.eq{
+    display: flex;
+    gap: 100px;
+    text-align: center;justify-content: center;
+}
+
+.education{
+    padding: 65px;
+    height: 300px;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(38, 40, 64);
+    line-height: 30px;
+    
+}
+
+.education:hover{
+    border-color: rgb(89, 178, 244);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;    
+}
+
+/* Fifth Content starts */
+
+#pro{
+    background-color: rgb(38, 40, 64);
+    height: 100vh;text-align: center;
+    width: 100%;
+}
+
+#pro h1{
+    color: white;
+    font-family:"Ubuntu", sans-serif;
+    padding:100px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.project{
+    display: flex;
+    gap: 100px;
+    justify-content:center;
+    
+}
+
+.image {
+    position: relative;
+    box-shadow: 0 0 16px #1c283f;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.image img {
+    width: 400px;
+    height: 270px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(89, 178, 244), rgb(227,230,230), rgba(227,230,230, 0));
+    color: black;
+    display: flex;
+    font-size: 16px;
+    padding: 15px;
+    transition: bottom 0.5s ease-in-out, opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.image:hover .overlay {
+    bottom: 0;
+    opacity: 1; 
+    align-items: center;
+}
+
+
+/* Sixth Content starts */
+
+#sk{
+    background-color: rgb(25, 31, 54) ;
+    height: 140vh;width: 100%;
+    text-align: center;
+}
+
+#sk h1{
+    color: white;text-align: center;
+    font-family:"Ubuntu", sans-serif;
+    padding:100px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.i{
+    display: flex;gap: 50px;justify-content: center;
+}
+
+.img{
+    height: 180px;
+    width: 185px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+.img:hover{
+    background-color: rgb(89, 178, 244);
+    cursor: pointer;
+    transform: scale(1.20);
+    transition: ease-in-out;
+}
+
+.i{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+}
+
+.i div p{
+    color: white;
+    font-family:"Ubuntu", sans-serif;
+    padding: 20px;cursor: pointer;
+}
+
+#im{
+    margin-left: 500px;
+}
+
+/* Seventh Content starts */
+
+#cm{
+    background-color: rgb(38, 40, 64);
+    height: 120vh;
+    width: 100%;padding: 125px;
+}
+
+#cm h1{
+    color: white;text-align: center;font-family:"Ubuntu", sans-serif;
+    padding:10px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+#cm form{
+    text-align: center;line-height: 100px;
+}
+
+form input{
+    padding: 10px;color: white;background-color: rgb(25, 31, 54);
+}
+
+
+.button {
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    background-color: rgb(89, 178, 244);
+    color: rgb(25, 31, 54);
+    border-radius: 50px;
+    margin-top: -40px;
+    margin-left: -80px;
+    border: 2px solid rgb(89, 178, 244); 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+    font-family:"Ubuntu", sans-serif;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+    font-size: larger;
+}
+
+.button:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white; border-color: rgb(89, 178, 244);
+}
+
+input{
+    font-family:"Ubuntu", sans-serif ;
+    font-size: 15px;word-spacing: 5px;letter-spacing: 1px;
+}
+
+form input{
+    width: 400px;
+    border-radius: 10px;
+    height: 60px;
+    border-color: transparent;
+}
+
+.form{
+   height: 250px;
+   width: 800px;
+   font-size: 15px;
+   background-color: rgb(25, 31, 54);
+   border-radius: 10px;
+   border-color: rgb(25, 31, 54);
+   word-spacing: 12px;
+   letter-spacing: 2px;
+}
+
+textarea{
+    padding: 20px;
+}
+
+/* Eighth Content starts */
+
+.end{
+    background-color: rgb(25,31,54);
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;gap: 100px;
+}
+
+footer h3{
+    color: white;font-family: "Ubuntu", sans-serif ; letter-spacing: 1px;
+    font-size: medium;padding: 40px;margin-left: 100px;
+}
+footer h4{
+    color: white;font-family: "Ubuntu", sans-serif ; letter-spacing: 1px;
+    font-size: medium;padding: 40px;margin-left: 100px;
+}
+
+#last{
+    color:rgb(216, 158, 24);
+}
+
+#end_1{
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-left: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgb(89, 178, 244);
+    border: 3px solid rgb(89, 178, 244);
+    border-radius: 10px;
+}

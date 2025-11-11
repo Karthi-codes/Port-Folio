@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <!-- Links -->
+
+</head>
+
+<body>
+
+    <header id="bg">
+        <nav class="nav-bar">
+            <h1>PortFolio</h1>
+            <div class="det">
+                <a class="info" href="#home">Home</a>
+                <a class="info" href="#am">About Me</a>
+                <a class="info" href="#ed">Education</a>
+                <a class="info" href="#pro">Projects</a>
+                <a class="info" href="#sk">Skills</a>
+                <a class="info" href="#cm">Contact</a>
+            </div>
+
+            <div class="icon" id="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="close-icon" id="close-icon">
+                <i class="fa-solid fa-times"></i>
+            </div>
+            <div class="menu-links"
+                style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100vh; padding-top: 50px;">
+                <a class="info" href="#home">Home</a>
+                <a class="info" href="#am">About Me</a>
+                <a class="info" href="#ed">Education</a>
+                <a class="info" href="#pro">Projects</a>
+                <a class="info" href="#sk">Skills</a>
+                <a class="info" href="#cm">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="home">
+        <div class="align" data-aos="fade-right">
+            <p class="p">
+                Hello, I am <br>
+                Karthikeyan <br>
+                I'm a<span style="color: rgb(89, 178, 244);"> Full Stack Developer</span><br>
+
+            <p class="describe">Connecting Front-end and Back-end to turn ideas into reality.</p>
+            </p>
+
+            <div class="element">
+                <a id="icon_1"
+                    href="https://www.linkedin.com/in/karthi-keyan-a80080281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a id="icon_1" href="http://karthikarthikeyan16401@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <!-- <a id="icon_1" href="https://www.instagram.com/i_g_karthi_/"><i class="fa-brands fa-instagram"></i></a> -->
+                <a id="icon_1" href="https://github.com/Karthi-codes" target="_blank"><i
+                        class="fa-brands fa-square-github"></i></a>
+                <a id="icon_1" href="https://wa.me/919994627027" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+
+            <div class="resume">
+                <a href="./Cv-Karthikeyan.pdf">
+                    <button class="download-btn">
+                        Download Resume <i class="fa-solid fa-download"></i>
+                    </button>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="pp" data-aos="fade-right">
+            <img id="photo" src="./Images/karthi.png" alt="">
+        </div>
+
+    </div>
+
+    <div id="am">
+        <h1>About <span>Me</span></h1>
+        <p class="about" data-aos="fade-right">I'm a passionate web and software developer with expertise in HTML, CSS,
+            JavaScript, jQuery,
+            Bootstrap, Node.js, MongoDB, Express, Python, and Java. I love turning ideas into seamless, user-friendly
+            digital experiences. With a strong foundation in both front-end and back-end development, I build scalable
+            and efficient solutions. Problem-solving and innovation drive my approach to coding. Always eager to learn
+            and evolve, I thrive on crafting clean, efficient, and impactful applications.</p>
+    </div>
+
+    <div id="ed">
+        <h1>Education<span>Qualification</span></h1>
+
+        <div class="eq" data-aos="fade-right">
+            <div class="education">
+                Bsc Computer Science <br>
+                2021-2023 <br>
+                AVS College OF Arts and Science <br>
+                CGPA-8.0% <br>
+                Salem-106
+            </div>
+            <div class="education">
+                HSC <br>
+                2020-2021 <br>
+                Little Flower Matriculation Hr Sec School <br>
+                CGPA-8.0% <br>
+                Salem-9
+            </div>
+            <div class="education">
+                SSLC <br>
+                2018-2019 <br>
+                Little Flower Matriculation School <br>
+                CGPA-7.6% <br>
+                Salem-9
+            </div>
+        </div>
+    </div>
+
+    <div id="pro">
+        <h1>My<span> Projects</span></h1>
+
+        <div class="project" data-aos="fade-right">
+            <div class="image">
+                <img src="./Images/Travel_App.png" alt="Movie Image">
+                <div class="overlay">
+                    The ticket booking application in Python using Tkinter provides a user-friendly interface for
+                    selecting seats, entering details, and confirming bookings. It integrates database handling,
+                    validation checks, and real-time availability updates for a smooth experience.
+                </div>
+            </div>
+
+
+            <div class="image">
+                <img src="./Images/Movie_App_2.jpg" alt="Movie Image">
+                <div class="overlay">
+                    I created a Netflix and Amazon replica using Python with OpenCV (cv2) and Tkinter. In the Netflix
+                    replica, users can watch movies using VLC media player, while the Amazon replica allows both movie
+                    streaming and ticket booking. Payment details are securely stored in a MySQL database for
+                    transaction management.
+                </div>
+            </div>
+
+
+            <div class="image">
+                <img src="./Images/Weather_Application.png" alt="Movie Image">
+                <div class="overlay">
+                    I developed a weather application using Python, incorporating modules like pytz, geopy, and
+                    timezonefinder. The application fetches real-time weather data from the OpenWeatherMap API,
+                    providing details like temperature, humidity, and forecasts. It also determines the user's location
+                    and time zone for accurate weather updates.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sk">
+        <h1>Technical <span> Skills</span></h1>
+
+        <div class="i">
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/Html.png"
+                    alt="" width="100px" height="100px">
+                <p>HTML</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/Css.png"
+                    alt="" width="100px" height="100px">
+                <p>CSS</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/Js.png"
+                    alt="" width="100px" height="100px">
+                <p>JAVA SCRIPT</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/J_query.png"
+                    alt="" width="100px" height="100px">
+                <p>JQUERY</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img
+                    src="./Images/Bootstrap.png" alt="Bootstrap" width="100px" height="100px">
+                <p>BOOTSTRAP</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/Node_Js.png"
+                    alt="" width="100px" height="100px">
+                <p>NODE JS</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/Mongodb.png"
+                    alt="" width="100px" height="100px">
+                <p>MONGO DB</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/Express.png"
+                    alt="" width="100px" height="100px">
+                <p>EXPRESS</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/Python.png"
+                    alt="" width="100px" height="100px">
+                <p>PYTHON</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img src="./Images/Java_1.png"
+                    alt="" width="100px" height="100px">
+                <p>JAVA</p>
+            </div>
+            <div class="img" id="im" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> <img
+                    src="./Images/React.png" alt="" width="100px" height="100px">
+                <p>REACT</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="cm">
+        <h1>Contact <span> Me</span></h1>
+
+        <form action="" id="contactForm">
+
+            <div>
+                <input data-aos="fade-up" data-aos-anchor-placement="top-bottom" type="text" id="name"
+                    placeholder="Enter Your Name" required>
+                <input data-aos="fade-up" data-aos-anchor-placement="top-bottom" type="email" id="email"
+                    placeholder="Enter Your Email" required>
+            </div>
+
+            <div>
+                <input data-aos="fade-up" data-aos-anchor-placement="top-bottom" type="number" id="number"
+                    placeholder="Enter Your Phone Number" required>
+                <input data-aos="fade-up" data-aos-anchor-placement="top-bottom" type="text" id="subject"
+                    placeholder="Enter The Subject Of The Mail" required>
+            </div>
+
+            <div>
+                <textarea data-aos="fade-up" data-aos-anchor-placement="top-bottom" name="" class="form" id="message"
+                    placeholder="Enter Your Thoughts Here..." required></textarea>
+            </div>
+            <br>
+            <button class="button" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Submit</button>
+        </form>
+
+    </div>
+
+    <footer class="end">
+        <h3>Copyrights © 2025</h3>
+
+        <h4><b>© 2025 by <a
+                    href="https://www.linkedin.com/in/karthi-keyan-a80080281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span
+                        id="last">Karthikeyan</a></span> | All Rights Reserved.</b></h4>
+
+        <a href="#home">
+            <i id="end_1" class="fa-solid fa-caret-up"></i>
+        </a>
+
+    </footer>
+
+</body>
+
+<script>
+    AOS.init();
+</script>
+
+<script src="index.js"></script>
+
+</html>

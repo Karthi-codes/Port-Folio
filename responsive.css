@@ -1,0 +1,1100 @@
+/* Media Query */
+
+/* Nav-bar */
+@media screen and (max-width:576px) {
+
+    .det {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .mobile-menu.active {
+        right: 0;
+    }
+
+    .nav-bar h1{
+        margin-left: 15px;
+    }
+   
+    #home{
+        height: fit-content;
+        width:100%;
+        padding-bottom: 100px;
+        background-color: rgb(25, 31, 54);
+        flex-direction: column;
+    }
+
+    .p{
+        margin-left: 45px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .describe{
+        margin-left: 40px;
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .element{
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+
+    .resume .download-btn{
+        margin-left: 45px;
+        height: 50px;
+        font-size: small;
+        width: 45%;
+        font-size: 15px;
+    }
+
+    #icon_1{
+        height: 30px;
+        width: 30px;
+        padding: 15px;
+        border: 2px solid ;
+    }
+    
+
+    #photo {
+        height: 175px;
+        width: 175px; 
+        margin: 50px 0px 0px -225px; /* centers horizontally and adds top margin */
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    #am{
+        height: fit-content;
+        padding-bottom: 1px;
+    }
+
+    #am h1{
+        font-size: 20px;
+        padding-top: 75px;
+        display: flex;
+        text-align: center;justify-content: center;
+    }
+
+    .about{
+        padding: 10px;
+        margin-left: 30px;
+        margin-bottom: 100px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    #ed{
+        padding-bottom: 100px;
+        /* margin-top: -100px; */
+        height: fit-content;
+    }
+
+    #ed h1{
+        font-size: 20px;
+        padding-top: 75px;
+        display: flex;
+        text-align: center;justify-content: center;
+        gap: 10px;   
+    }
+
+    .eq{
+        flex-direction: column;
+        margin-top: -50px;justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .education{
+        height: 150px;
+        width: 300px;
+        font-size: 10px;margin-top: -10px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 13px; 
+        text-align: center;
+    }
+
+    #pro{
+        padding-bottom: 100px;
+        height: fit-content;
+    }
+
+    #pro h1{
+        font-size: 20px;
+        padding-top: 75px;
+        display: flex;gap: 10px;
+        text-align: center;justify-content: center;
+    }
+
+    .project{
+        flex-direction: column;
+        margin-top: -50px;
+        align-items: center;
+    }
+
+    .image img{
+        height: 160px;
+        width:280px;
+    }
+
+    #sk{
+        height: fit-content;
+        width:100%;
+        padding-bottom: 100px;
+        background-color: rgb(25, 31, 54);
+    }
+
+    #sk h1{
+        font-size: 20px;
+        padding-top: 75px;
+        display: flex;
+        text-align: center;justify-content: center;
+        gap: 10px;   
+    }    
+
+    .img{
+        height: 130px;
+        width: 125px;
+    }
+
+    .image:hover .overlay{
+        font-size: 12px
+    }
+
+    .i{
+        display: grid;
+        margin-left: -10px;
+        grid-template-columns: repeat(2,100px);
+    }
+
+    .img img{
+        height: 50px;
+        width: 50px;        
+    }
+    
+    .img  p{
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+    #im{
+       margin-left: 80px;
+    }
+
+
+    #cm{
+        height: fit-content;
+    }
+
+    #cm h1{
+        font-size: 20px;
+        padding-top: 10px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;   
+    }
+
+    #contactForm{
+        justify-items: center;
+        padding-top: 20px;
+    }
+
+   
+    #contactForm input{
+        width: 250px;
+        height: 50px;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    #cm form{
+        line-height: 70px;
+    }
+
+    #cm textarea{
+        margin-top: 10px;
+    }
+    
+    #contactForm textarea{
+        height: 250px;
+        width: 250px;
+        font-size: 10px;
+        word-spacing: 1px;
+    }
+
+    .end{
+        height: fit-content;
+    }
+
+    footer h3{
+        color: white;font-family: "Ubuntu", sans-serif ; 
+        letter-spacing: 1px;text-align: center;
+        font-size: 10px;padding: 15px;margin-left: 0px;
+    }
+
+    footer h4{
+        color: white;font-family: "Ubuntu", sans-serif ; 
+        letter-spacing: 1px;
+        font-size: 9px;padding: 15px;margin-left: -90px;
+    }
+    
+    #last{
+        color:rgb(216, 158, 24);
+    }
+    
+    #end_1{
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        margin-top: 0px;
+        padding-top: 7px;
+        margin-left: -70px;
+        font-size: 18px;
+        background-color: rgb(89, 178, 244);
+        border: 3px solid rgb(89, 178, 244);
+        border-radius: 10px;
+    }
+}
+  
+@media (min-width:576px) and (max-width:900px) {
+
+    .det {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .mobile-menu.active {
+        right: 0;
+    }
+
+    .nav-bar h1{
+        margin-left: 50px;
+    }
+
+    #menu-icon i{
+        margin-left: -110px;
+        font-size: 20px;
+    }
+
+    #home{
+        height: fit-content;
+        width:100%;
+        /* flex-direction: column; */
+        padding-bottom: 100px;
+        background-color: rgb(25, 31, 54);
+        gap: 150px;
+    }
+
+    .p{
+        width: fit-content;
+        margin-left: -20px;
+        padding-left: 50px;
+        line-height: 50px;
+        font-size: 25px;
+    }
+
+    .describe{
+        margin-left: -20px;
+        font-size: 14px;
+        padding-left: 50px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .element{
+        margin-top: 10px;
+        padding-left: 50px;
+        margin-left: -20px;
+    }
+    .resume{
+        padding-left: 50px;
+    }
+
+    .resume .download-btn{
+        margin-left: -20px;
+        height: 45px;
+        width: 230px;
+        font-size: 15px;
+    }
+
+    #icon_1{
+        height: 30px;
+        width: 30px;
+        padding: 15px;
+        border: 2px solid ;
+    }
+    .pp{
+        margin-left:-100px;
+        padding-bottom: 50px;
+    }
+
+    #photo{
+        height: 150px;
+        width: 150px; 
+        margin-top: 100px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    #am{
+        height: fit-content;
+    }
+
+    #am h1{
+        padding-top: 100px;
+        font-size: 25px;
+    }
+
+    .about{
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    #ed{
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+
+    #ed h1{
+        font-size: 20px;
+        padding-top: 75px;
+        display: flex;
+        text-align: center;justify-content: center;
+        gap: 10px;   
+    }
+
+    .eq{
+        flex-direction: column;
+        margin-top: -50px;justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .education{
+        height: 250px;
+        width: 500px;
+        margin-top: -10px;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 17px; 
+        text-align: center;
+    }
+
+    #pro{
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+
+    #pro h1{
+        font-size: 20px;
+        padding-top: 75px;
+        display: flex;gap: 10px;
+        text-align: center;justify-content: center;
+    }
+
+    .project{
+        flex-direction: column;
+        margin-top: -50px;
+        align-items: center;
+    }
+
+    .image{
+        height: 250px;
+        width: 400px;
+    }
+
+    #sk{
+        height: fit-content;
+        width:100%;
+        padding-bottom: 100px;
+        background-color: rgb(25, 31, 54);
+    }
+
+    #sk h1{
+        font-size: 20px;
+        padding-top: 75px;
+        display: flex;
+        text-align: center;justify-content: center;
+        gap: 10px;   
+    }    
+
+    .img{
+        height: 150px;
+        width: 145px;
+    }
+
+    .i{
+        display: grid;
+        margin-left: -10px;
+        grid-template-columns: repeat(3,150px);
+    }
+
+    .img img{
+        height: 75px;
+        width: 75px;        
+    }
+    
+    .img  p{
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    #im{
+       margin-left: 200px;
+    }
+
+    #cm{
+        height: fit-content;
+    }
+
+    #cm h1{
+        font-size: 25px;    
+    }
+
+    .form{
+        height: 300px;
+        width: 400px;
+    }
+
+    .end{
+        height: fit-content;
+    }
+
+    footer h3{
+        color: white;font-family: "Ubuntu", sans-serif ; 
+        letter-spacing: 1px;
+        font-size: 13px;padding: 30px;margin-left: 0px;
+    }
+
+    footer h4{
+        color: white;font-family: "Ubuntu", sans-serif ; 
+        letter-spacing: 1px;
+        font-size:13px;padding: 30px;margin-left: -50px;
+    }
+
+
+    #last{
+        color:rgb(216, 158, 24);
+    }
+    
+    #end_1{
+        height: fit-content;
+        width: 30px;
+        margin-top: 4px;
+        margin-left: -50px;
+        font-size: 18px;
+        background-color: rgb(89, 178, 244);
+        border: 3px solid rgb(89, 178, 244);
+        border-radius: 10px;
+    }   
+}
+
+@media (min-width:900px) and (max-width:1024px){
+
+    .nav-bar{
+        width:100%;
+        position: fixed;
+        z-index: 1px;
+        font-size: 20px;
+    }
+
+    .nav-bar h1{
+        margin-left: 75px;
+        font-size: 20px;
+    }
+
+    .det{
+        margin-left: -200px;
+    }
+
+    .info{
+        font-size: 15px;
+    }
+
+    #home{
+        height: fit-content;
+        width:100%;
+        padding-left: 100px;
+        background-color: rgb(25, 31, 54); 
+    }
+
+    .p{
+        margin-left: -60px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+
+    .describe{
+        margin-left: -60px;
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .element{
+        margin-top: 10px;
+        margin-left: -60px;
+    }
+
+    .resume .download-btn{
+        margin-left: -60px;
+        height: 35px;
+        font-size: small;
+        width: 250px;
+        font-size: 16px;
+        padding: 13px 25px;
+    }
+
+    #icon_1{
+        height: 30px;
+        width: 30px;
+        padding: 15px;
+        border: 2px solid ;
+    }
+    .pp{
+        margin-left:100px;
+        padding-bottom: 50px;
+    }
+
+    #photo{
+        height: 200px;
+        width: 200px;
+        margin: 0px 70px; 
+        margin-top: 150px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    #am{
+        height: fit-content;
+    }
+
+    #am h1{
+        padding-top: 100px;
+        font-size: 25px;
+    }
+
+    .about{
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    #ed{
+        height: fit-content;
+        padding-bottom: 100px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #ed h1{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .eq {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .education {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 45%; 
+        align-content: center;
+        min-width: 250px;
+    }
+
+    #pro{
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .image {
+        width: 45%;
+        min-width: 250px;
+    }
+   
+    .image img {
+        width: 350px;
+        border-radius: 10px;
+    }
+
+    #sk{
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+
+    #sk h1{
+        font-size: 25px;
+    }
+
+    .i {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        gap: 30px;
+        justify-items: center;
+    }
+    .img {
+        height: 175px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+        border-radius: 10px;
+        width: 200px;
+    }
+    .img img {
+        width: 75px;
+        height: 75px;
+    }
+    .img p {
+        margin-top: 10px;
+    }
+
+    #im{
+        margin-left: 660px;
+    }
+
+    #cm{
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    #cm h1{
+        text-align: center;
+        font-size: 25px;    
+    }
+
+    #cm form{
+        text-align: center;line-height: 100px;
+    }
+    
+    form input{
+        padding: 10px;color: white;background-color: rgb(25, 31, 54);
+    }
+    
+    .button {
+        height: 60px;
+        width: 150px;
+        position: absolute;
+        background-color: rgb(89, 178, 244);
+        color: rgb(25, 31, 54);
+        border-radius: 50px;
+        margin-top: -30px;
+        margin-left: -60px;
+        border: 2px solid rgb(89, 178, 244); 
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+        font-family:"Ubuntu", sans-serif;
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+        font-size: larger;
+    }
+    
+    .button:hover {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white; border-color: rgb(89, 178, 244);
+    }
+    
+    input{
+        font-family:"Ubuntu", sans-serif ;
+        font-size: 15px;word-spacing: 5px;letter-spacing: 1px;
+    }
+    
+    form input{
+        width: 400px;
+        border-radius: 10px;
+        height: 60px;
+        border-color: transparent;
+    }
+    
+    .form{
+       height: 250px;
+       width: 100%;
+       font-size: 15px;
+       background-color: rgb(25, 31, 54);
+       border-radius: 10px;
+       border-color: rgb(25, 31, 54);
+       word-spacing: 12px;
+       letter-spacing: 2px;
+    }
+
+    #contactForm{
+        margin-top: 50px;
+    }
+
+    #contactForm div{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    textarea{
+        padding: 20px;
+    }
+
+    input, textarea, button {
+        margin-bottom: 50px;
+    }
+
+    .end{
+        height: fit-content;
+    }
+    
+    footer h3{
+        color: white;font-family: "Ubuntu", sans-serif ; 
+        letter-spacing: 1px;
+        font-size: 13px;padding: 30px;margin-left: 10px;
+    }
+
+    footer h4{
+        color: white;font-family: "Ubuntu", sans-serif ; 
+        letter-spacing: 1px;
+        font-size:13px;padding: 30px;margin-left: 50px;
+    }
+
+    #last{
+        color:rgb(216, 158, 24);
+    }
+    
+   
+    #end_1{
+        height: 30px;
+        width: 30px;
+        margin-top: 0px;
+        margin-left: 100px;
+        font-size: 18px;
+        background-color: rgb(89, 178, 244);
+        border: 3px solid rgb(89, 178, 244);
+        border-radius: 10px;
+    }    
+}
+
+@media (min-width:1024px) and (max-width:1440px){
+
+    .nav-bar{
+        width:100%;
+        position: fixed;
+        z-index: 1px;
+        font-size: 20px;
+    }
+
+    .nav-bar h1{
+        margin-left: 75px;
+        font-size: 20px;
+    }
+
+    .det{
+        margin-left: -200px;
+    }
+
+    .info{
+        font-size: 15px;
+    }
+
+    #home{
+        height: fit-content;
+        width:100%;
+        padding-left: 100px;
+        background-color: rgb(25, 31, 54); 
+    }
+
+    .p{
+        margin-left: -60px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+
+    .describe{
+        margin-left: -60px;
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .element{
+        margin-top: 10px;
+        margin-left: -60px;
+    }
+
+    .resume .download-btn{
+        margin-left: -60px;
+        height: 40px;
+        font-size: small;
+        width: 280px;
+        font-size: 18px;
+        padding: 13px 25px;
+    }
+
+    #icon_1{
+        height: 30px;
+        width: 30px;
+        padding: 15px;
+        border: 2px solid ;
+    }
+    .pp{
+        margin-left:100px;
+        padding-bottom: 50px;
+    }
+
+    #photo{
+        height: 200px;
+        width: 200px;
+        margin: 0px 70px; 
+        margin-top: 150px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    #am{
+        height: fit-content;
+    }
+
+    #am h1{
+        padding-top: 100px;
+        font-size: 25px;
+    }
+
+    .about{
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    #ed{
+        height: fit-content;
+        padding-bottom: 100px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #ed h1{
+        font-size: 25px;
+        margin-top:30px;
+    }
+
+    .eq {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .education {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 45%; 
+        align-content: center;
+        min-width: 250px;
+    }
+
+    #pro{
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .image {
+        width: 45%;
+        min-width: 250px;
+    }
+   
+    .image img {
+        width: 350px;
+        border-radius: 10px;
+    }
+
+    #sk{
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+
+    #sk h1{
+        font-size: 25px;
+    }
+
+    .i {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        gap: 30px;
+        justify-items: center;
+    }
+    .img {
+        height: 175px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+        border-radius: 10px;
+        width: 200px;
+    }
+    .img img {
+        width: 75px;
+        height: 75px;
+    }
+    .img p {
+        margin-top: 10px;
+    }
+
+    #im{
+        margin-left: 660px;
+    }
+
+    #cm{
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    #cm h1{
+        text-align: center;
+        font-size: 25px;    
+    }
+
+    #cm form{
+        text-align: center;line-height: 100px;
+    }
+    
+    form input{
+        padding: 10px;color: white;background-color: rgb(25, 31, 54);
+    }
+    
+    .button{
+        height: 60px;
+        width: 150px;
+        background-color: rgb(89, 178, 244);
+        color: rgb(25, 31, 54);
+        border-radius: 50px;
+        margin-top: 0px;
+        margin-left: -70px;
+        border: 2px solid rgb(89, 178, 244); 
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+        font-family:"Ubuntu", sans-serif;
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+        font-size: larger;
+    }
+    
+    .button:hover {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white; border-color: rgb(89, 178, 244);
+    }
+    
+    input{
+        font-family:"Ubuntu", sans-serif ;
+        font-size: 15px;word-spacing: 5px;letter-spacing: 1px;
+    }
+    
+    form input{
+        width: 400px;
+        border-radius: 10px;
+        height: 60px;
+        border-color: transparent;
+    }
+    
+    .form {
+       height: 250px;
+       width: 100%;
+       font-size: 15px;
+       background-color: rgb(25, 31, 54);
+       border-radius: 10px;
+       border-color: rgb(25, 31, 54);
+       word-spacing: 12px;
+       letter-spacing: 2px;
+    }
+
+    #contactForm {
+        margin-top: 50px;
+    }
+
+    #contactForm div {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    textarea {
+        padding: 20px;
+    }
+
+    input, textarea, button {
+        margin-bottom: 50px;
+    }
+
+    .end{
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h3{
+        color: white;font-family: "Ubuntu", sans-serif ; 
+        letter-spacing: 1px;
+        font-size: 13px;padding: 30px;margin-left: 10px;
+    }
+
+    footer h4{
+        color: white;font-family: "Ubuntu", sans-serif ; 
+        letter-spacing: 1px;
+        font-size:13px;padding: 30px;margin-left: 50px;
+    }
+
+    #last{
+        color:rgb(216, 158, 24);
+    }
+    
+   
+    #end_1{
+        height: 30px;
+        width: 30px;
+        margin-top: 5px;
+        margin-left: 100px;
+        font-size: 18px;
+        background-color: rgb(89, 178, 244);
+        border: 3px solid rgb(89, 178, 244);
+        border-radius: 10px;
+    }    
+}
